@@ -1,0 +1,22 @@
+﻿<Controls:MetroWindow x:Class="AppMTPS_WPF.frmDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:AppMTPS_WPF"
+        mc:Ignorable="d"
+        Title="Detalles" Height="350" Width="500" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Height="23" Margin="63,92,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="377" FontSize="14" Controls:TextBoxHelper.Watermark="Código" Controls:TextBoxHelper.ClearTextButton="True" IsEnabled="False"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="63,123,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="377" FontSize="14" Controls:TextBoxHelper.Watermark="Nombre completo" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="23" Margin="63,151,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="377" FontSize="14" Controls:TextBoxHelper.Watermark="Nombre de usuario" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="63,179,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="377" FontSize="14" Controls:TextBoxHelper.Watermark="Correo electrónico" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <PasswordBox x:Name="pwbClave" HorizontalAlignment="Left" Margin="63,210,0,0" VerticalAlignment="Top" Width="377" FontSize="14" Controls:TextBoxHelper.Watermark="Contraseña" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <Button x:Name="btnActualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="63,260,0,0" VerticalAlignment="Top" Width="100" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnActualizar_Click"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="203,260,0,0" VerticalAlignment="Top" Width="100" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnEliminar_Click"/>
+        <Button x:Name="btnCancelar" Content="Regresar" HorizontalAlignment="Left" Margin="340,260,0,0" VerticalAlignment="Top" Width="100" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnCancelar_Click"/>
+        <Label x:Name="label" Content="Actualiza o elimina un usuario" Margin="147,37,139,255" FontWeight="Bold" FontSize="14"/>
+
+    </Grid>
+</Controls:MetroWindow>

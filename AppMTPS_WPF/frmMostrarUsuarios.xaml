@@ -1,0 +1,26 @@
+﻿<Controls:MetroWindow x:Class="AppMTPS_WPF.frmMostrarUsuarios"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:AppMTPS_WPF"
+        mc:Ignorable="d"
+        Title="Lista de Usuarios" Height="400" Width="525" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Icon="Resources\User.png">
+    <Grid>
+        <DataGrid x:Name="dgUsuarios" Margin="10,127,10,10" AutoGenerateColumns="False" MouseDoubleClick="dgUsuarios_MouseDoubleClick" CanUserSortColumns="False">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=Id}" Header="Código"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Nombre}" Header="Nombre"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Email}" Header="Correo"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=Username}" Header="Usuario"></DataGridTextColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button x:Name="btnRegresar" Content="Regresar" Margin="404,74,10,0" VerticalAlignment="Top" Height="30" Click="btnRegresar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
+        <Label x:Name="label" Content="Lista de usuarios registrados" Margin="153,21,144,315" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="txtBusqueda" HorizontalAlignment="Left" Height="30" Margin="10,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="376" FontSize="14" Controls:TextBoxHelper.Watermark="Haz una busqueda" Controls:TextBoxHelper.ClearTextButton="True" TextChanged="txtBusqueda_TextChanged"/>
+
+    </Grid>
+</Controls:MetroWindow>

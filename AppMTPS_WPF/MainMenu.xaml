@@ -1,0 +1,32 @@
+﻿<Controls:MetroWindow x:Class="AppMTPS_WPF.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:AppMTPS_WPF"
+        mc:Ignorable="d"
+        Title="Menu Principal" Height="450" Width="750" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Icon="Resources/menu.png">
+    <Grid>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="96" Margin="209,292,0,0" VerticalAlignment="Top" Width="329"/>
+
+        <Label x:Name="lbFechaHora" Content="17/05/2019" HorizontalAlignment="Left" Margin="648,11,-3,0" VerticalAlignment="Top" FontWeight="Bold" Width="99" Foreground="Black" Height="35"/>
+        <Label x:Name="lbBienvenido" Content="Bienvenido usuario" Margin="21,10,423,375" FontWeight="Bold" Foreground="Black"/>
+        <Button x:Name="btnNuevaEmpresa" Content="       Registrar Nueva Empresa" HorizontalAlignment="Left" Margin="100,95,0,0" VerticalAlignment="Top" Width="221" Height="67" FontSize="14" Click="btnNuevaEmpresa_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="1"/>
+        <Button x:Name="btnNuevoUsuario" Content="       Registrar Nuevo Usuario" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" Width="221" Height="68" FontSize="14" Click="btnNuevoUsuario_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="3"/>
+        <Button x:Name="btnMostrarEmpresas" Content="      Empresas" HorizontalAlignment="Left" Margin="425,95,0,0" VerticalAlignment="Top" Width="221" Height="67" FontSize="14" Click="btnMostrarEmpresas_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="2"/>
+        <Button x:Name="btnMostrarUsuarios" Content="      Usuarios" HorizontalAlignment="Left" Margin="425,200,0,0" VerticalAlignment="Top" Width="221" Height="68" FontSize="14" Click="btnMostrarUsuarios_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="4"/>
+        <Controls:Tile Title="" Name="Tile1" Width="90" Height="Auto" Margin="231,314,423,53" Style="{DynamicResource AccentedSquareButtonStyle}" Click="Tile1_Click" TabIndex="5">
+            <Image Source="Resources/Logout.png" Width="30"/>
+        </Controls:Tile>
+        <Controls:Tile Title="" Name="Tile2" Width="90" Height="Auto" Margin="425,314,229,53" Style="{DynamicResource AccentedSquareButtonStyle}" Click="Tile2_Click" TabIndex="6">
+            <Image Source="Resources/Off.png" Width="30"/>
+        </Controls:Tile>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="25" Margin="113,117,0,0" VerticalAlignment="Top" Width="25" Source="Resources/Add-New.png"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="26" Margin="113,222,0,0" VerticalAlignment="Top" Width="26" Source="Resources/User-Add.png"/>
+        <Image x:Name="image2" HorizontalAlignment="Left" Height="25" Margin="488,222,0,0" VerticalAlignment="Top" Width="25" Source="Resources/User.png" RenderTransformOrigin="0.462,0.269"/>
+        <Image x:Name="image3" HorizontalAlignment="Left" Height="25" Margin="488,116,0,0" VerticalAlignment="Top" Width="25" Source="Resources/Inventory.png" RenderTransformOrigin="0.462,0.269"/>
+
+    </Grid>
+</Controls:MetroWindow>

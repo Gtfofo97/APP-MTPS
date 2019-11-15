@@ -35,8 +35,15 @@ namespace AppMTPS_WPF
         public frmNuevaEmpresa()
         {
             InitializeComponent();
+            ocultarErrores();
         }
-
+        public void ocultarErrores()
+        {
+            error1.Visibility = Visibility.Collapsed;
+            error2.Visibility = Visibility.Collapsed;
+            error3.Visibility = Visibility.Collapsed;
+            error4.Visibility = Visibility.Collapsed;
+        }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             CargarDepartamentos();
@@ -128,6 +135,7 @@ namespace AppMTPS_WPF
                         {
                             await this.ShowMessageAsync("Éxito", "Empresa registrada correctamente.");
                             Actualizar();
+                            ocultarErrores();
                         }
                         else
                         {
@@ -145,7 +153,11 @@ namespace AppMTPS_WPF
             catch (Exception)
             {
                 MessageBox.Show("No introduzca texto en campos de tipo numérico", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                Actualizar();
+                // Actualizar();
+                error1.Visibility = Visibility;
+                error2.Visibility = Visibility;
+                error3.Visibility = Visibility;
+                error4.Visibility = Visibility;
                 txtSucursales.Focus();
             }
         }

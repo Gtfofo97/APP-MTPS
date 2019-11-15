@@ -43,7 +43,7 @@ namespace AppMTPS_WPF
             error2.Visibility = Visibility.Collapsed;
             error3.Visibility = Visibility.Collapsed;
             error4.Visibility = Visibility.Collapsed;
-            error4.Visibility = Visibility.Collapsed;
+            error5.Visibility = Visibility.Collapsed;
         }
         public void marcarErrores()
         {

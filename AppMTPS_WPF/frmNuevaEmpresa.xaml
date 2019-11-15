@@ -31,6 +31,7 @@
         <Label x:Name="error2" Content="Revisar" HorizontalAlignment="Left" Margin="332,145,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
         <Label x:Name="error3" Content="Revisar" HorizontalAlignment="Left" Margin="332,239,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
         <Label x:Name="error4" Content="Revisar" HorizontalAlignment="Left" Margin="332,269,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
+        <Label x:Name="error5" Content="Revisar" HorizontalAlignment="Left" Margin="633,83,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
 
 
     </Grid>

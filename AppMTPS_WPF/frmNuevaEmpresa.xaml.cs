@@ -43,6 +43,15 @@ namespace AppMTPS_WPF
             error2.Visibility = Visibility.Collapsed;
             error3.Visibility = Visibility.Collapsed;
             error4.Visibility = Visibility.Collapsed;
+            error4.Visibility = Visibility.Collapsed;
+        }
+        public void marcarErrores()
+        {
+            error1.Visibility = Visibility;
+            error2.Visibility = Visibility;
+            error3.Visibility = Visibility;
+            error4.Visibility = Visibility;
+            error5.Visibility = Visibility;
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
@@ -154,11 +163,8 @@ namespace AppMTPS_WPF
             {
                 MessageBox.Show("No introduzca texto en campos de tipo numérico", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 // Actualizar();
-                error1.Visibility = Visibility;
-                error2.Visibility = Visibility;
-                error3.Visibility = Visibility;
-                error4.Visibility = Visibility;
                 txtSucursales.Focus();
+                marcarErrores();
             }
         }
 

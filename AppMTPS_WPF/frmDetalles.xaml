@@ -6,30 +6,48 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:AppMTPS_WPF"
         mc:Ignorable="d"
-        Title="Detalles de empresa" Height="550" Width="750" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Loaded="Window_Loaded" Icon="Resources\Documents-02.png">
+        Title="Detalles de empresa" Height="550" Width="1000" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Loaded="Window_Loaded" Icon="Resources\Documents-02.png">
     <Grid>
-        <TextBox x:Name="txtId" HorizontalAlignment="Left" Height="23" Margin="114,84,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Código" IsEnabled="False"/>
-        <TextBox x:Name="txtFecha" HorizontalAlignment="Left" Height="23" Margin="114,115,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Fecha" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtSucursales" HorizontalAlignment="Left" Height="23" Margin="114,146,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="N° de Sucursales" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtNoInscripcion" HorizontalAlignment="Left" Height="23" Margin="114,177,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="N° de Inscripción" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="114,208,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Nombre de Empresa" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtGiro" HorizontalAlignment="Left" Height="23" Margin="114,239,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Giro" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtCapitalActivo" HorizontalAlignment="Left" Height="23" Margin="114,270,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Capital Activo" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtCapitalSocial" HorizontalAlignment="Left" Height="23" Margin="114,301,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Capital Social" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtNit" HorizontalAlignment="Left" Height="23" Margin="114,332,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="NIT" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtRepresentanteLegal" HorizontalAlignment="Left" Height="23" Margin="114,362,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Representante Legal" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="23" Margin="405,84,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Telefono" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Height="88" Margin="405,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Dirección de casa matriz" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <TextBox x:Name="txtPersonaDesignada" HorizontalAlignment="Left" Height="23" Margin="405,208,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Persona Designada" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <ComboBox x:Name="cbEstado" HorizontalAlignment="Left" Margin="405,239,0,0" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Estado "/>
-        <ComboBox x:Name="cbTipo" HorizontalAlignment="Left" Margin="405,270,0,0" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Tipo"/>
-        <ComboBox x:Name="cbDepartamento" HorizontalAlignment="Left" Margin="405,301,0,0" VerticalAlignment="Top" Width="228" SelectionChanged="cbDepartamento_SelectionChanged" Controls:TextBoxHelper.Watermark="Departamento"/>
-        <ComboBox x:Name="cbMunicipio" HorizontalAlignment="Left" Margin="405,332,0,0" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Municipio"/>
-        <TextBox x:Name="txtFechaAct" HorizontalAlignment="Left" Height="23" Margin="405,363,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Fecha de actualización" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <Button x:Name="btnRegresar" Content="Regresar" HorizontalAlignment="Left" Margin="504,429,0,0" VerticalAlignment="Top" Width="129" Click="btnRegresar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Height="34"/>
-        <Button x:Name="btnActualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="114,429,0,0" VerticalAlignment="Top" Width="129" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Height="34" Click="btnActualizar_Click"/>
-        <Label x:Name="label" Content="Actualizar o eliminar un registro de la base de datos" HorizontalAlignment="Left" Margin="197,22,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
-        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="310,429,0,0" VerticalAlignment="Top" Width="129" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Height="34" Click="btnEliminar_Click"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Height="23" Margin="114,94,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Código" IsEnabled="False"/>
+        <TextBox x:Name="txtFecha" HorizontalAlignment="Left" Height="23" Margin="114,146,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Fecha" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtSucursales" HorizontalAlignment="Left" Height="23" Margin="114,198,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="N° de Sucursales" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtNoInscripcion" HorizontalAlignment="Left" Height="23" Margin="114,250,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="N° de Inscripción" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="114,302,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Nombre de Empresa" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtGiro" HorizontalAlignment="Left" Height="23" Margin="114,354,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Giro" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtCapitalActivo" HorizontalAlignment="Left" Height="23" Margin="381,94,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Capital Activo" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtCapitalSocial" HorizontalAlignment="Left" Height="23" Margin="381,146,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Capital Social" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtNit" HorizontalAlignment="Left" Height="23" Margin="381,198,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="NIT" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtRepresentanteLegal" HorizontalAlignment="Left" Height="23" Margin="381,250,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Representante Legal" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="23" Margin="381,302,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Telefono" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Height="72" Margin="381,354,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Dirección de casa matriz" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <TextBox x:Name="txtPersonaDesignada" HorizontalAlignment="Left" Height="23" Margin="647,94,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Persona Designada" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <ComboBox x:Name="cbEstado" HorizontalAlignment="Left" Margin="647,146,0,0" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Estado "/>
+        <ComboBox x:Name="cbTipo" HorizontalAlignment="Left" Margin="647,198,0,0" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Tipo"/>
+        <ComboBox x:Name="cbDepartamento" HorizontalAlignment="Left" Margin="647,250,0,0" VerticalAlignment="Top" Width="228" SelectionChanged="cbDepartamento_SelectionChanged" Controls:TextBoxHelper.Watermark="Departamento"/>
+        <ComboBox x:Name="cbMunicipio" HorizontalAlignment="Left" Margin="647,302,0,0" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Municipio"/>
+        <TextBox x:Name="txtFechaAct" HorizontalAlignment="Left" Height="23" Margin="647,354,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="228" Controls:TextBoxHelper.Watermark="Fecha de actualización" Controls:TextBoxHelper.ClearTextButton="True"/>
+        <Button x:Name="btnRegresar" Content="Regresar" HorizontalAlignment="Left" Margin="114,22,0,0" VerticalAlignment="Top" Width="129" Click="btnRegresar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Height="34"/>
+        <Button x:Name="btnActualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="114,441,0,0" VerticalAlignment="Top" Width="228" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Height="34" Click="btnActualizar_Click"/>
+        <Label x:Name="label" Content="Actualizar o eliminar un registro de la base de datos" HorizontalAlignment="Left" Margin="321,24,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="647,441,0,0" VerticalAlignment="Top" Width="228" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Height="34" Click="btnEliminar_Click"/>
+        <Label x:Name="label1" Content="Código" HorizontalAlignment="Left" Margin="114,68,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Fecha de Inscripción" HorizontalAlignment="Left" Margin="114,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy1" Content="N° de sucursales" HorizontalAlignment="Left" Margin="114,172,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy2" Content="N° de Inscripción" HorizontalAlignment="Left" Margin="114,224,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy3" Content="Nombre de Empresa" HorizontalAlignment="Left" Margin="114,276,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy4" Content="Giro" HorizontalAlignment="Left" Margin="114,328,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy5" Content="Capital Activo" HorizontalAlignment="Left" Margin="381,68,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy6" Content="Capital Social" HorizontalAlignment="Left" Margin="381,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy7" Content="NIT" HorizontalAlignment="Left" Margin="381,172,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy8" Content="Representante Legal" HorizontalAlignment="Left" Margin="381,224,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy9" Content="Telefono" HorizontalAlignment="Left" Margin="383,276,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy10" Content="Dirección de Casa Matriz" HorizontalAlignment="Left" Margin="383,328,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy11" Content="Persona Designada" HorizontalAlignment="Left" Margin="647,68,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy12" Content="Estado" HorizontalAlignment="Left" Margin="647,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy13" Content="Tipo" HorizontalAlignment="Left" Margin="647,172,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy14" Content="Departamento" HorizontalAlignment="Left" Margin="647,224,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy15" Content="Municipio" HorizontalAlignment="Left" Margin="647,276,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy16" Content="Fecha de Actualización" HorizontalAlignment="Left" Margin="647,328,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Controls:MetroWindow>

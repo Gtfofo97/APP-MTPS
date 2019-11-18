@@ -339,13 +339,12 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>AppMTPS_WPF.exe</td><td>{CFF813D2-B098-4689-B49E-F3F470BAD954}</td><td>INSTALLDIR</td><td>2</td><td/><td>appmtps_wpf.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>BL_MTPS.dll</td><td>{10F6E895-494E-4A07-8EB6-8BB205F8FFA3}</td><td>INSTALLDIR</td><td>2</td><td/><td>bl_mtps.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DAL_MTPS.dll</td><td>{9FA223CF-56EF-4580-BB6F-7418BE757AFC}</td><td>INSTALLDIR</td><td>2</td><td/><td>dal_mtps.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>EN_MTPS.dll</td><td>{A45CCFE9-F717-4052-8B19-2670160ED946}</td><td>INSTALLDIR</td><td>2</td><td/><td>en_mtps.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AppMTPS_WPF.exe</td><td>{C3F1ECC4-327C-4B82-B8E5-71057AAEF1D7}</td><td>INSTALLDIR</td><td>2</td><td/><td>appmtps_wpf.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>BL_MTPS.dll</td><td>{1A79E388-8825-40B7-8ACC-55D33C5F1B40}</td><td>INSTALLDIR</td><td>2</td><td/><td>bl_mtps.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DAL_MTPS.dll</td><td>{029AF810-4474-45F4-AE53-55B83F8B60DE}</td><td>INSTALLDIR</td><td>2</td><td/><td>dal_mtps.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>EN_MTPS.dll</td><td>{6DE11965-D59C-4017-808F-B0F0DB9BA40B}</td><td>INSTALLDIR</td><td>2</td><td/><td>en_mtps.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{FB471E87-0EEF-4169-9875-403563289167}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{C5B137B1-B4D1-45D9-A523-F154C5057EB4}</td><td>DATABASEDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>MahApps.Metro.dll</td><td>{77498C92-43BF-458C-B88D-50613DD1BD84}</td><td>INSTALLDIR</td><td>2</td><td/><td>mahapps.metro.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1061,7 +1060,6 @@
 		<row><td>INSTALLDIR</td><td>EN_MTPS.dll</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>INSTALLDIR</td><td>MahApps.Metro.dll</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1886,7 +1884,6 @@
 		<row><td>AlwaysInstall</td><td>EN_MTPS.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>AlwaysInstall</td><td>MahApps.Metro.dll</td></row>
 	</table>
 
 	<table name="File">
@@ -1901,14 +1898,11 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>appmtps_wpf.exe</td><td>AppMTPS_WPF.exe</td><td>APPMTP~1.EXE|AppMTPS_WPF.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Gustavo\Documents\MTPS-APP\AppMTPS\AppMTPS_WPF\bin\Release\AppMTPS_WPF.exe</td><td>1</td><td/></row>
-		<row><td>appmtps_wpf.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>APPMTP~1.CON|AppMTPS_WPF.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Gustavo\Documents\MTPS-APP\AppMTPS\AppMTPS_WPF\bin\Release\AppMTPS_WPF.exe.config</td><td>1</td><td/></row>
-		<row><td>bl_mtps.dll</td><td>BL_MTPS.dll</td><td>BL_MTPS.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Gustavo\Documents\MTPS-APP\AppMTPS\AppMTPS_WPF\bin\Release\BL_MTPS.dll</td><td>1</td><td/></row>
-		<row><td>dal_mtps.dll</td><td>DAL_MTPS.dll</td><td>DAL_MTPS.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Gustavo\Documents\MTPS-APP\AppMTPS\AppMTPS_WPF\bin\Release\DAL_MTPS.dll</td><td>1</td><td/></row>
-		<row><td>departament_municipio.sql</td><td>ISX_DEFAULTCOMPONENT1</td><td>DEPART~1.SQL|Departament-Municipio.sql</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Gustavo\Documents\MTPS-APP\Departament-Municipio.sql</td><td>1</td><td/></row>
-		<row><td>en_mtps.dll</td><td>EN_MTPS.dll</td><td>EN_MTPS.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Gustavo\Documents\MTPS-APP\AppMTPS\AppMTPS_WPF\bin\Release\EN_MTPS.dll</td><td>1</td><td/></row>
-		<row><td>mahapps.metro.dll</td><td>MahApps.Metro.dll</td><td>MAHAPP~1.DLL|MahApps.Metro.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Gustavo\Documents\MTPS-APP\AppMTPS\AppMTPS_WPF\bin\Release\MahApps.Metro.dll</td><td>1</td><td/></row>
-		<row><td>mtps_db.sql</td><td>ISX_DEFAULTCOMPONENT1</td><td>MTPS-DB.sql</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Gustavo\Documents\MTPS-APP\MTPS-DB.sql</td><td>1</td><td/></row>
+		<row><td>appmtps_wpf.exe</td><td>AppMTPS_WPF.exe</td><td>APPMTP~1.EXE|AppMTPS_WPF.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Bryan J. Campos\Desktop\ModuloFinal04\MTPS\APP-MTPS\AppMTPS_WPF\bin\Release\AppMTPS_WPF.exe</td><td>1</td><td/></row>
+		<row><td>appmtps_wpf.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>APPMTP~1.CON|AppMTPS_WPF.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Bryan J. Campos\Desktop\ModuloFinal04\MTPS\APP-MTPS\AppMTPS_WPF\bin\Release\AppMTPS_WPF.exe.config</td><td>1</td><td/></row>
+		<row><td>bl_mtps.dll</td><td>BL_MTPS.dll</td><td>BL_MTPS.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Bryan J. Campos\Desktop\ModuloFinal04\MTPS\APP-MTPS\AppMTPS_WPF\bin\Release\BL_MTPS.dll</td><td>1</td><td/></row>
+		<row><td>dal_mtps.dll</td><td>DAL_MTPS.dll</td><td>DAL_MTPS.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Bryan J. Campos\Desktop\ModuloFinal04\MTPS\APP-MTPS\AppMTPS_WPF\bin\Release\DAL_MTPS.dll</td><td>1</td><td/></row>
+		<row><td>en_mtps.dll</td><td>EN_MTPS.dll</td><td>EN_MTPS.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Bryan J. Campos\Desktop\ModuloFinal04\MTPS\APP-MTPS\AppMTPS_WPF\bin\Release\EN_MTPS.dll</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2051,13 +2045,12 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>AppMTPS_WPF.exe</td><td/><td/><td>_BE0CEA34_BCEA_478A_BE14_96C4A0BBADC6_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>BL_MTPS.dll</td><td/><td/><td>_596609A2_2BCD_48A3_BAD9_DF6143AEAEB2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DAL_MTPS.dll</td><td/><td/><td>_10395DB3_7D64_49EF_8239_0AFC6BC1B8CB_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>EN_MTPS.dll</td><td/><td/><td>_AC4D3551_CFF8_48C8_9BBC_AA93A6A6E0E6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AppMTPS_WPF.exe</td><td/><td/><td>_05035F11_A12B_474E_B3FF_A8C38ED58A73_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>BL_MTPS.dll</td><td/><td/><td>_3B5CE769_3710_4DC4_9DC8_3664D1EC5485_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DAL_MTPS.dll</td><td/><td/><td>_5F5DCAAC_AE83_4C90_8213_8F45F901D046_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>EN_MTPS.dll</td><td/><td/><td>_2E8483FE_2FEC_4855_B6FC_8DD8F944D423_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_75E30C10_3BED_4DD2_B9FA_AC9F5E42F36D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_531DE623_F7ED_4F4B_B5F8_8485E891FBB7_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>MahApps.Metro.dll</td><td/><td/><td>_EE3F6A46_143E_49BE_B29D_41E885655804_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2645,7 +2638,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Developers Pineda  &amp; Campos</td><td>0</td><td/><td>-181960404</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Developers Pineda  &amp; Campos</td><td>0</td><td/><td>-1784195638</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-358125866</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-358125866</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>-358125866</td></row>
@@ -3458,6 +3451,7 @@
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>-358125866</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>-358125866</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>MTPS App</td><td>0</td><td/><td>-358142154</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME10</td><td>1033</td><td>MTPS App</td><td>0</td><td/><td>-1784213974</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>LAUNCH~1.EXE|Launch AppMTPS_WPF.exe</td><td>0</td><td/><td>-223916436</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>MTPS App</td><td>0</td><td/><td>-223935025</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>MTPS App</td><td>0</td><td/><td>1395065361</td></row>
@@ -3754,10 +3748,11 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-358125866</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-358125866</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-358125866</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.DevelopersPineda&amp;Campos.com</td><td>0</td><td/><td>-181960404</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.DevelopersPineda&amp;Campos.com</td><td>0</td><td/><td>-1784195638</td></row>
 		<row><td>ID_STRING10</td><td>1033</td><td>LAUNCH~1.EXE|Launch AppMTPS_WPF.exe</td><td>0</td><td/><td>-316169872</td></row>
 		<row><td>ID_STRING11</td><td>1033</td><td>LAUNCH~1.EXE|Launch AppMTPS_WPF.exe</td><td>0</td><td/><td>-181982900</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Developers Pineda  &amp; Campos</td><td>0</td><td/><td>-181960404</td></row>
+		<row><td>ID_STRING12</td><td>1033</td><td>LAUNCH~1.EXE|Launch AppMTPS_WPF.exe</td><td>0</td><td/><td>-1784164854</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Developers Pineda  &amp; Campos</td><td>0</td><td/><td>-1784195638</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>MTPS App</td><td>0</td><td/><td>-358140106</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch AppMTPS_WPF.exe</td><td>0</td><td/><td>-223902100</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>MTPS App</td><td>0</td><td/><td>-223932977</td></row>
@@ -3878,7 +3873,7 @@
 		<col def="V0">Data</col>
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
-		<row><td>ARPPRODUCTICON.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
+		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;VSSolutionFolder&gt;\AppMTPS_WPF\Resources\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe1_05A2C9068FC449F488425AFDA969189C.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe1_19FAD9D9EA0B4FB4BF873E26EF5F955B.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe1_470EB47BA0534933B9A904F6464E34EA.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
@@ -3886,6 +3881,7 @@
 		<row><td>AppMTPS_WPF.exe1_5E2CE44EAF184FED9D4A84285DB8199E.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe1_9A38621D2899487780FC76F98723891D.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe1_A8E20AFE2A8A41AE8AF0D9CF442F3FFB.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
+		<row><td>AppMTPS_WPF.exe1_D61F45A3E0E7466396453B5314B24D08.exe</td><td/><td>&lt;VSSolutionFolder&gt;\AppMTPS_WPF\Resources\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe1_DEC58185BCED46CDA980FAB345DEB8D9.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe1_F35E435BCB634C528B439A4EB577F803.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe_0CEE847E120C41D2BD2B255DEDA989BC.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
@@ -3895,6 +3891,7 @@
 		<row><td>AppMTPS_WPF.exe_B59CFF357DCD47C2953AE100D36F5627.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe_BFF3CEF4547F4A4D9BE949502BA24286.exe</td><td/><td>C:\Users\Gustavo\Pictures\Logo_ControlPedidos.ico</td><td>0</td></row>
 		<row><td>AppMTPS_WPF.exe_F9D9D2ED3EBE4224BE3BDE1BFE793BC9.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>AppMTPS_WPF.exe_FB00977E301749088AC0469BAC1C48EC.exe</td><td/><td>&lt;VSSolutionFolder&gt;\AppMTPS_WPF\Resources\Logo_ControlPedidos.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4404,7 +4401,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{EB4718A7-9640-493B-9DB6-11943575292B}</td><td/></row>
 		<row><td>ProductName</td><td>MTPS App</td><td/></row>
-		<row><td>ProductVersion</td><td>1.6</td><td/></row>
+		<row><td>ProductVersion</td><td>1.7</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4479,6 +4476,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
+		<row><td>AppMTPS_WPF.exe</td><td>AppMTPS_WPF.exe</td><td/><td>mtpsap_1_mtps_app1</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4564,7 +4562,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>AppMTPS_WPF.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME9##</td><td>AppMTPS_WPF.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AppMTPS_WPF.exe1_470EB47BA0534933B9A904F6464E34EA.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>AppMTPS_WPF.exe</td><td>mtpsap_1_mtps_app1</td><td>##IDS_SHORTCUT_DISPLAY_NAME10##</td><td>AppMTPS_WPF.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AppMTPS_WPF.exe_FB00977E301749088AC0469BAC1C48EC.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>AppMTPS_WPF.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME10##</td><td>AppMTPS_WPF.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AppMTPS_WPF.exe1_D61F45A3E0E7466396453B5314B24D08.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

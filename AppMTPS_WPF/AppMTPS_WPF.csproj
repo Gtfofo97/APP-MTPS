@@ -201,6 +201,7 @@
     <Resource Include="Resources\baseline_close_white_24dp.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\Logo_ControlPedidos.ico" />
     <Resource Include="Resources\baseline_send_white_24dp.png" />
     <Content Include="Resources\close-24px.svg" />
   </ItemGroup>

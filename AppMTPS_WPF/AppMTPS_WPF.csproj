@@ -195,6 +195,15 @@
   <ItemGroup>
     <Resource Include="Resources\Off.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\baseline_arrow_back_white_24dp.png" />
+    <Resource Include="Resources\baseline_check_white_24dp.png" />
+    <Resource Include="Resources\baseline_close_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\baseline_send_white_24dp.png" />
+    <Content Include="Resources\close-24px.svg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

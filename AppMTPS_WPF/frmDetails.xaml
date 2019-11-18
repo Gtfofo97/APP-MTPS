@@ -13,10 +13,13 @@
         <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="23" Margin="63,151,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="377" FontSize="14" Controls:TextBoxHelper.Watermark="Nombre de usuario" Controls:TextBoxHelper.ClearTextButton="True"/>
         <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="63,179,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="377" FontSize="14" Controls:TextBoxHelper.Watermark="Correo electrónico" Controls:TextBoxHelper.ClearTextButton="True"/>
         <PasswordBox x:Name="pwbClave" HorizontalAlignment="Left" Margin="63,210,0,0" VerticalAlignment="Top" Width="377" FontSize="14" Controls:TextBoxHelper.Watermark="Contraseña" Controls:TextBoxHelper.ClearTextButton="True"/>
-        <Button x:Name="btnActualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="63,260,0,0" VerticalAlignment="Top" Width="100" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnActualizar_Click"/>
-        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="203,260,0,0" VerticalAlignment="Top" Width="100" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnEliminar_Click"/>
-        <Button x:Name="btnCancelar" Content="Regresar" HorizontalAlignment="Left" Margin="340,260,0,0" VerticalAlignment="Top" Width="100" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnCancelar_Click"/>
-        <Label x:Name="label" Content="Actualiza o elimina un usuario" Margin="147,37,139,255" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="btnActualizar" Content="    Actualizar" Margin="63,260,281,0" VerticalAlignment="Top" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnActualizar_Click"/>
+        <Button x:Name="btnEliminar" Content="  Eliminar" Margin="291,260,53,0" VerticalAlignment="Top" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnEliminar_Click"/>
+        <Button x:Name="btnCancelar" Content="  Regresar" Margin="64,12,280,0" VerticalAlignment="Top" Height="29" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnCancelar_Click"/>
+        <Label x:Name="label" Content="Actualiza o elimina un usuario" Margin="148,45,138,247" FontWeight="Bold" FontSize="14"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="25" Margin="93,14,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_arrow_back_white_24dp.png"/>
+        <Image x:Name="image_Copy" HorizontalAlignment="Left" Height="25" Margin="92,263,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_check_white_24dp.png"/>
+        <Image x:Name="image_Copy1" HorizontalAlignment="Left" Height="25" Margin="323,262,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_close_white_24dp.png"/>
 
     </Grid>
 </Controls:MetroWindow>

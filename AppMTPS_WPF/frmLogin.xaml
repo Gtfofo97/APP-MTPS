@@ -22,6 +22,7 @@
         <Button x:Name="btnSubmitLogin" Content="Entrar" HorizontalAlignment="Left" Margin="75,177,0,0" VerticalAlignment="Top" Width="248" Height="31" Click="btnSubmitLogin_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
         <Label x:Name="label" Content="Iniciar Sesión" Margin="142,19,141,208" FontWeight="Bold" FontSize="14"/>
         <Label x:Name="lbNotice" Content="." HorizontalAlignment="Left" Margin="75,213,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="25" Margin="156,180,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_send_white_24dp.png"/>
 
     </Grid>
 </Controls:MetroWindow>

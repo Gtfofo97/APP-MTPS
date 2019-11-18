@@ -6,15 +6,17 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:AppMTPS_WPF"
         mc:Ignorable="d"
-        Title="Nuevo Usuario" Height="320" Width="400" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="Resources\User-Add.png">
-    <Grid>
-        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="63,87,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="269" FontSize="14" Controls:TextBoxHelper.Watermark="Nombre completo" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="1"/>
-        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="23" Margin="63,115,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="269" FontSize="14" Controls:TextBoxHelper.Watermark="Nombre de usuario" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="2"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="63,143,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="269" FontSize="14" Controls:TextBoxHelper.Watermark="Correo electrónico" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="3"/>
-        <TextBox x:Name="txtClave" HorizontalAlignment="Left" Height="23" Margin="63,171,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="269" FontSize="14" Controls:TextBoxHelper.Watermark="Contraseña" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="4"/>
-        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="63,210,0,0" VerticalAlignment="Top" Width="125" Height="29" Click="btnGuardar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="5"/>
-        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="207,210,0,0" VerticalAlignment="Top" Width="125" Height="29" Click="btnCancelar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="6"/>
-        <Label x:Name="label" Content="Registrar un nuevo usuario" HorizontalAlignment="Left" Margin="103,37,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        Title="Nuevo Usuario" Height="320" Width="450.3" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="Resources\User-Add.png">
+    <Grid Width="444">
+        <TextBox x:Name="txtNombre" Height="23" Margin="63,87,59,0" TextWrapping="NoWrap" VerticalAlignment="Top" FontSize="14" Controls:TextBoxHelper.Watermark="Nombre completo" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="1"/>
+        <TextBox x:Name="txtUsuario" Height="23" Margin="63,115,59,0" TextWrapping="NoWrap" VerticalAlignment="Top" FontSize="14" Controls:TextBoxHelper.Watermark="Nombre de usuario" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="2"/>
+        <TextBox x:Name="txtEmail" Height="23" Margin="63,143,59,0" TextWrapping="NoWrap" VerticalAlignment="Top" FontSize="14" Controls:TextBoxHelper.Watermark="Correo electrónico" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="3"/>
+        <TextBox x:Name="txtClave" Height="23" Margin="63,171,59,0" TextWrapping="NoWrap" VerticalAlignment="Top" FontSize="14" Controls:TextBoxHelper.Watermark="Contraseña" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="4"/>
+        <Button x:Name="btnGuardar" Content="   Guardar" Margin="64,213,236,0" VerticalAlignment="Top" Height="29" Click="btnGuardar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="5"/>
+        <Button x:Name="btnCancelar" Content="  Cancelar" Margin="241,213,59,0" VerticalAlignment="Top" Height="29" Click="btnCancelar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="6"/>
+        <Label x:Name="label" Content="Registrar un nuevo usuario" Margin="131,37,126,225" FontWeight="Bold" FontSize="14"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="25" Margin="270,216,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_close_white_24dp.png"/>
+        <Image x:Name="image2" HorizontalAlignment="Left" Height="25" Margin="93,216,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_check_white_24dp.png"/>
 
     </Grid>
 </Controls:MetroWindow>

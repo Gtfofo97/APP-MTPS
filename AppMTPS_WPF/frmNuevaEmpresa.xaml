@@ -23,15 +23,17 @@
         <ComboBox x:Name="cbTipo" HorizontalAlignment="Left" Margin="403,269,0,0" VerticalAlignment="Top" Width="230" Height="23" Controls:TextBoxHelper.Watermark="Tipo" TabIndex="14"/>
         <ComboBox x:Name="cbDepartamento" HorizontalAlignment="Left" Margin="403,300,0,0" VerticalAlignment="Top" Width="230" Height="23" Controls:TextBoxHelper.Watermark="Departamento" SelectionChanged="cbDepartamento_SelectionChanged" TabIndex="15"/>
         <ComboBox x:Name="cbMunicipio" HorizontalAlignment="Left" Margin="403,331,0,0" VerticalAlignment="Top" Width="230" Height="23" Controls:TextBoxHelper.Watermark="Municipio" TabIndex="16"/>
-        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="102,381,0,0" VerticalAlignment="Top" Width="230" Height="34" Click="btnGuardar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="17"/>
-        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="402,381,0,0" VerticalAlignment="Top" Width="231" Height="34" Click="btnCancelar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="18"/>
+        <Button x:Name="btnGuardar" Content="   Guardar" HorizontalAlignment="Left" Margin="102,381,0,0" VerticalAlignment="Top" Width="230" Height="34" Click="btnGuardar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="17"/>
+        <Button x:Name="btnCancelar" Content="  Cancelar" HorizontalAlignment="Left" Margin="402,381,0,0" VerticalAlignment="Top" Width="231" Height="34" Click="btnCancelar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" TabIndex="18"/>
         <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Height="88" Margin="403,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="14" Controls:TextBoxHelper.Watermark="Dirección de casa matriz" Controls:TextBoxHelper.ClearTextButton="True" TabIndex="11"/>
-        <Label x:Name="label" Content="Registrar una nueva empresa o negocio" HorizontalAlignment="Left" Margin="213,26,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="label" Content="Registrar una nueva empresa o negocio" Margin="231,24,244,418" FontSize="14" FontWeight="Bold"/>
         <Label x:Name="error1" Content="Revisar" HorizontalAlignment="Left" Margin="332,115,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
         <Label x:Name="error2" Content="Revisar" HorizontalAlignment="Left" Margin="332,145,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
         <Label x:Name="error3" Content="Revisar" HorizontalAlignment="Left" Margin="332,239,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
         <Label x:Name="error4" Content="Revisar" HorizontalAlignment="Left" Margin="332,269,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
         <Label x:Name="error5" Content="Revisar" HorizontalAlignment="Left" Margin="633,83,0,0" VerticalAlignment="Top" Background="#FFFBFBFB" Foreground="#FFE40707"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="25" Margin="465,387,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_close_white_24dp.png"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="25" Margin="168,386,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_check_white_24dp.png"/>
 
 
     </Grid>

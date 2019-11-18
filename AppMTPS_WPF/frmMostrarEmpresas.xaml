@@ -6,9 +6,9 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:AppMTPS_WPF"
         mc:Ignorable="d"
-        Title="Lista de Empresas" Height="450" Width="750" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Icon="Resources\Inventory.png">
+        Title="Lista de Empresas" Height="550" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Icon="Resources\Inventory.png">
     <Grid>
-        <DataGrid x:Name="dgEmpresas" Margin="17,154,18,18" AutoGenerateColumns="False" MouseDoubleClick="dgEmpresas_MouseDoubleClick" CanUserSortColumns="False">
+        <DataGrid x:Name="dgEmpresas" Margin="17,135,15,18" AutoGenerateColumns="False" MouseDoubleClick="dgEmpresas_MouseDoubleClick" CanUserSortColumns="False">
 
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Path=Id}" Header="Código"></DataGridTextColumn>
@@ -21,9 +21,10 @@
             </DataGrid.Columns>
 
         </DataGrid>
-        <Button x:Name="btnRegresar" Content="Regresar" HorizontalAlignment="Left" Margin="586,86,0,0" VerticalAlignment="Top" Width="148" Height="32" Click="btnRegresar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
-        <Label x:Name="label" Content="Lista de empresas registradas" HorizontalAlignment="Left" Margin="270,21,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtBusqueda" HorizontalAlignment="Left" Height="32" Margin="17,86,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="543" Controls:TextBoxHelper.Watermark="Haz una busqueda" Controls:TextBoxHelper.ClearTextButton="True" FontSize="14" TextChanged="txtBusqueda_TextChanged"/>
+        <Button x:Name="btnRegresar" Content="  Regresar" Margin="20,13,621,476" Click="btnRegresar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
+        <Label x:Name="label" Content="Lista de empresas registradas" Margin="287,48,304,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="txtBusqueda" Margin="20,88,16,401" TextWrapping="NoWrap" Controls:TextBoxHelper.Watermark="Haz una busqueda" Controls:TextBoxHelper.ClearTextButton="True" FontSize="14" TextChanged="txtBusqueda_TextChanged"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="25" Margin="49,17,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_arrow_back_white_24dp.png"/>
 
     </Grid>
 </Controls:MetroWindow>

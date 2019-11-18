@@ -6,9 +6,9 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:AppMTPS_WPF"
         mc:Ignorable="d"
-        Title="Lista de Usuarios" Height="400" Width="525" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Icon="Resources\User.png">
+        Title="Lista de Usuarios" Height="400" Width="535" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Icon="Resources\User.png">
     <Grid>
-        <DataGrid x:Name="dgUsuarios" Margin="10,127,10,10" AutoGenerateColumns="False" MouseDoubleClick="dgUsuarios_MouseDoubleClick" CanUserSortColumns="False">
+        <DataGrid x:Name="dgUsuarios" Margin="10,135,10,10" AutoGenerateColumns="False" MouseDoubleClick="dgUsuarios_MouseDoubleClick" CanUserSortColumns="False">
 
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Path=Id}" Header="Código"></DataGridTextColumn>
@@ -18,9 +18,10 @@
             </DataGrid.Columns>
 
         </DataGrid>
-        <Button x:Name="btnRegresar" Content="Regresar" Margin="404,74,10,0" VerticalAlignment="Top" Height="30" Click="btnRegresar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
-        <Label x:Name="label" Content="Lista de usuarios registrados" Margin="153,21,144,315" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtBusqueda" HorizontalAlignment="Left" Height="30" Margin="10,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="376" FontSize="14" Controls:TextBoxHelper.Watermark="Haz una busqueda" Controls:TextBoxHelper.ClearTextButton="True" TextChanged="txtBusqueda_TextChanged"/>
+        <Button x:Name="btnRegresar" Content="  Regresar" Margin="11,13,378,0" VerticalAlignment="Top" Height="30" Click="btnRegresar_Click" Style="{DynamicResource AccentedSquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal"/>
+        <Label x:Name="label" Content="Lista de usuarios registrados" Margin="170,41,127,295" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="txtBusqueda" Height="30" Margin="10,87,11,0" TextWrapping="NoWrap" VerticalAlignment="Top" FontSize="14" Controls:TextBoxHelper.Watermark="Haz una busqueda" Controls:TextBoxHelper.ClearTextButton="True" TextChanged="txtBusqueda_TextChanged"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="25" Margin="34,16,0,0" VerticalAlignment="Top" Width="25" Source="Resources/baseline_arrow_back_white_24dp.png"/>
 
     </Grid>
 </Controls:MetroWindow>
